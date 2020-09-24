@@ -24,21 +24,21 @@ global_settings = {
   resource_groups_hub = {
     eastus = {
       HUB-CORE-SEC = {
-        name     = "hub-core-sec-sea"
+        name     = "hub-core-sec-eus"
         location = "eastus"
       }
       HUB-OPERATIONS = {
-        name     = "hub-operations-sea"
+        name     = "hub-operations-eus"
         location = "eastus"
       }
     }
     southcentralus = {
       HUB-CORE-SEC = {
-        name     = "hub-core-sec-hk"
+        name     = "hub-core-sec-scus"
         location = "eastus"
       }
       HUB-OPERATIONS = {
-        name     = "hub-operations-hk"
+        name     = "hub-operations-scus"
         location = "eastus"
       }
     }
