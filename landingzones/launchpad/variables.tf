@@ -28,7 +28,7 @@ variable convention {
 }
 
 variable location {
-  default = "southeastasia"
+  default = "useast"
 }
 
 variable prefix {
