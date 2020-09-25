@@ -15,30 +15,30 @@ global_settings = {
   tags_hub = {
     owner          = "CAF"
     deploymentType = "Terraform"
-    costCenter     = "1664"
-    BusinessUnit   = "SHARED"
-    DR             = "NON-DR-ENABLED"
+#    costCenter     = "1664"
+    BusinessUnit   = "DivisionofIT"
+#    DR             = "NON-DR-ENABLED"
   }
 
   # Set of resource groups to land the foundations
   resource_groups_hub = {
     eastus = {
       HUB-CORE-SEC = {
-        name     = "hub-core-sec-sea"
+        name     = "hub-core-sec-eus"
         location = "eastus"
       }
       HUB-OPERATIONS = {
-        name     = "hub-operations-sea"
+        name     = "hub-operations-eus"
         location = "eastus"
       }
     }
     southcentralus = {
       HUB-CORE-SEC = {
-        name     = "hub-core-sec-hk"
+        name     = "hub-core-sec-scus"
         location = "southcentralus"
       }
       HUB-OPERATIONS = {
-        name     = "hub-operations-hk"
+        name     = "hub-operations-scus"
         location = "southcentralus"
       }
     }
@@ -129,7 +129,7 @@ accounting_settings = {
     azure_diagnostics_logs_event_hub = false
 
     #Logging and monitoring 
-    analytics_workspace_name = "caflalogs-hk"
+    analytics_workspace_name = "caflalogs-scus"
 
     ##Log analytics solutions to be deployed 
     solution_plan_map = {
